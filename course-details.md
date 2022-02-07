@@ -52,7 +52,7 @@ class: middle
 
 # Матеріали лекцій
 
-Матеріали лекцій будуть розміщуватсь за посиланням [https://courses-cs-kpi.github.io/pd-22sp/](https://courses-cs-kpi.github.io/pd-22sp/)
+Матеріали лекцій будуть розміщуватись за посиланням: [https://courses-cs-kpi.github.io/pd-22sp/](https://courses-cs-kpi.github.io/pd-22sp/)
 
 - Формат матеріалів: HTML та PDF
 
@@ -98,18 +98,18 @@ class: middle
 
 # Підручники
 
- Деякі корисні книги, які можуть стати Вам у нагоді при опануванні курсу:
+ Деякі корисні книги, які можуть стати Вам у нагоді під час опанування курсу:
 
 .smaller-xx.grid[
 .kol-1-2[
 [.center.width-85[![](figures/course-details/programming-massively-parallel-processors-kirk.png)]](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0128119861/ref=sr_1_fkmr0_2?crid=2YR2Y8FMYMZRB&keywords=Programming+Massively+Parallel+Processors%3A+A+Hands-on+Approach+3rd+Edition&qid=1643962972&s=books&sprefix=programming+massively+parallel+processors+a+hands-on+approach+3rd+edition+%2Cstripbooks-intl-ship%2C171&sr=1-2-fkmr0)
-.center[Amazon -EN]
+.center[Amazon - EN]
 ]
 
 
 .kol-1-2[
 [.center.width-80[![](figures/course-details/parallel-and-high-performance-computing-robey.png)]](https://livebook.manning.com/book/parallel-and-high-performance-computing/chapter-1/69)
-.center[Безкоштовний перегляд -EN]
+.center[Безкоштовний перегляд - EN]
   ]
 ]
 
@@ -168,4 +168,4 @@ class: middle
 class: end-slide, center
 count: false
 
-.larger-xx[Почнемо!]
+.larger-xx[Почнемо 🎬⏳] 
