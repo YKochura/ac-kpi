@@ -15,11 +15,13 @@ class: middle
 
 # Сьогодні
 
-- Будова CPU та GPU
-- Переваги використання GPUs
-- Паралельний vs Розподілений
-- Основні закони паралельних обчислень
-- Області застосування гетерогенних паралельних обчислень
+- GPU-прискорені vs лише CPU програми
+- Способи прискорення виконання програм
+- Приклади паралельних обчислень
+- Процес компіляції CUDA C/C++
+- Ядра: функції GPU
+- Ієрархія потоків
+- Демо
 
 ---
 
@@ -393,15 +395,6 @@ class: middle
 ---
 
 
-class: middle
-
-# Додавання векторів
-.center[
-.width-100[![](figures/lec2/vecAdd.png)]
-]
-
----
-
 
 class: middle
 
@@ -706,10 +699,26 @@ count: false
 
 .larger-xx[Демо: запит пристрою]
 
-.larger-xxx[<a href="https://colab.research.google.com/github/YKochura/cv-kpi/blob/main/homeworks/lab1/Perceptron_solution.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>]
+<a href="https://colab.research.google.com/github/YKochura/ac-kpi/blob/main/tutor/lec2/DeviceQuery.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ---
 
+class: blue-slide, middle, center
+count: false
+
+.larger-xx[Демо: додавання векторів]
+
+<a href="https://colab.research.google.com/github/YKochura/ac-kpi/blob/main/tutor/lec2/vectAdd.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+---
+
+
+# Додаток
+
+
+- NVIDIA, [CUDA Quick Start Guide](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)
+
+---
 
 
 class: end-slide, center
