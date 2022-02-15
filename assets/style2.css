@@ -484,3 +484,10 @@ td {
 .logo-im { 
     width: 50px; 
 }
+
+.divmomentum {
+    position: relative;
+    width: block;
+    height: 600px;
+    overflow: hidden;
+}
