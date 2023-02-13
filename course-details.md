@@ -2,7 +2,7 @@ class: middle, center, title-slide
 <br>
 # Технології графічного процесінгу & розподілених обчислень
 
-Весна, 2022
+Весна, 2023
 
 <br><br>
 Кочура Юрій Петрович<br>
@@ -21,14 +21,16 @@ class: middle, center, title-slide
 <br>
 
 .center[
-.circle.width-40[![](figures/course-details/ykochura.jpg)]
+.circle.width-40[![](figures/course-details/ykochura.png)]
 ]
 
 ---
 
 # Аудиторія
 
-Цього семестру (Весна 2022) заняття проходять онлайн в .bold[*BigBlueButton*] за посиланням:  [https://bbb.comsys.kpi.ua/b/yur-ujl-jyp-qmp](https://bbb.comsys.kpi.ua/b/yur-ujl-jyp-qmp)
+Цього семестру заняття проходять онлайн в .bold[*BigBlueButton*] 
+- Основне посилання:  [bbb.comsys.kpi.ua/b/yur-ujl-jyp-qmp](https://bbb.comsys.kpi.ua/b/yur-ujl-jyp-qmp)
+- Резервне посилання: [bbb.ugrid.org/b/yur-ujl-jyp-qmp](https://bbb.ugrid.org/b/yur-ujl-jyp-qmp)
 
 .center.width-100[![](figures/course-details/bbb.png)]
 
@@ -38,13 +40,13 @@ class: middle
 
 # Обговорення
 
-.smaller-xx[Усі оголошення та обговорення щодо матеріалів лекцій та практик буде здійснюватись в Telegram (повідомте мене, якщо Вас потрібно додати в цю групу)
+.smaller-xx[Усі оголошення та обговорення щодо матеріалів лекцій та практик буде здійснюватись в Telegram (повідомте мене, якщо потрібно Вас додати в цю групу)
 
 - Задавайте питання, які Вас турбують. 
 - Не соромтесь!
 ]
 
-.center.width-25[![](figures/course-details/telegram.png)]
+.center.width-60[![](figures/course-details/telegram.png)]
 
 ---
 
@@ -52,9 +54,9 @@ class: middle
 
 # Матеріали лекцій
 
-Матеріали лекцій будуть розміщуватись за посиланням: [https://courses-cs-kpi.github.io/pd-22sp/](https://courses-cs-kpi.github.io/pd-22sp/)
+Матеріали лекцій та практик будуть розміщуватись за посиланням: [https://courses-cs-kpi.github.io/pd-23sp/](https://courses-cs-kpi.github.io/pd-23sp/)
 
-- Формат матеріалів: HTML та PDF
+- Формат матеріалів лекцій: HTML та PDF
 
 
 .center.width-75[![](figures/course-details/github.png)]
@@ -122,8 +124,9 @@ class: middle
 
 - Для магiстрiв 1-го курсу
 - Мова викладання: українська, англiйська
-- 12 лекцій
-- 4 практичнi роботи + контрольна + семінар
+- 10 лекцій
+- 2 семінари
+- 4 практичнi роботи + контрольна 
 - Технології графічного процесінгу: **екзамен**
 - Технології розподілених обчислень: **залік**
 
