@@ -91,6 +91,90 @@ class: middle
 
 ---
 
+class: blue-slide, middle, center
+count: false
+
+.larger-xx[Масштабованість та портативність у гетерогенних паралельних обчисленнях]
+
+---
+
+class: middle
+
+# Масштабованість
+
+.center.width-50[![](figures/lec1/portability-scalability1.png)]
+
+.footnote[Джерело слайду: NVIDIA, DLI]
+
+---
+
+class: middle
+
+# Масштабованість
+
+.center.width-50[![](figures/lec1/portability-scalability2.png)]
+
+.alert[Той самий додаток ефективно працює на нових поколіннях ядер.]
+
+.footnote[Джерело слайду: NVIDIA, DLI]
+
+---
+
+class: middle
+
+# Масштабованість
+
+.center.width-90[![](figures/lec1/portability-scalability3.png)]
+
+.alert[Той самий додаток ефективно працює на кількох однакових ядрах.]
+
+.footnote[Джерело слайду: NVIDIA, DLI]
+
+???
+Зростання продуктивності з поколіннями апаратного забезпечення (HW) пов'язано:
+- Збільшення кількості обчислювальних одиниць (ядер)
+- Збільшення кількості потоків
+- Збільшення довжини вектора
+- Збільшення розміру пакету DRAM
+- Збільшення кількості каналів DRAM
+- Зменшення затримок переміщення даних
+
+---
+
+
+class: middle
+
+# Портативність
+
+.center.width-90[![](figures/lec1/portability-scalability4.png)]
+
+.alert[Той самий додаток ефективно працює на різних типах ядер.]
+
+.footnote[Джерело слайду: NVIDIA, DLI]
+
+---
+
+class: middle
+
+# Портативність
+
+.center.width-90[![](figures/lec1/portability-scalability5.png)]
+
+.alert[Той самий додаток ефективно працює  в системах з різною організацією та інтерфейсами.]
+
+.footnote[Джерело слайду: NVIDIA, DLI]
+
+???
+ Потративність між різними типами апаратного забезпечення:
+- Між ISAs (Instruction Set Architectures) - X86 vs. ARM (Advanced RISC Machines) тощо
+- Між СPU, які орієнтовані на зменшення затримок та графічними процесорами (GPU), які орієнтованих на збільшення пропускної здатності
+- Між  моделями паралелізму: VLIW (Very long instruction word ) vs. SIMD (Single instruction, multiple data) vs. потоків
+- Між різними  моделями пам’яті: Shared memory vs. distributed memory
+
+---
+
+
+
 
 class: blue-slide, middle, center
 count: false
