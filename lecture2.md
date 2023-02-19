@@ -11,10 +11,76 @@ class: middle, center, title-slide
 
 ---
 
+class: blue-slide, middle, center
+count: false
+
+.larger-xx[Огляд]
+
+---
+
+class: middle
+
+# Сьогоднішні виклики обчислень
+
+- Навички *виконання обчислень* є важливими для вивчення практично усіх дисциплін
+- *Наука про дані* та *машинне навчання* стають основними навичками в більшості STEM
+- Практично всі *процесори багатоядерні*, від мікроконтролерів до суперкомп'ютери
+- Бізнес та наукові відкриття потребують *ШІ* та *прискорених обчислень*
+
+
+???
+STEM (Science, Technology, Engineering and Mathematics, укр. наука, технології, інженерія, математика) &sdash; термін, яким називають підхід до освітнього процесу; відповідно до якого основою набуття знань є проста та доступна візуалізація наукових явищ, що дає змогу легко охопити і здобути знання на основі практики та глибокого розуміння процесів. 
+
+Акронім STEM був запропонований в 2001 році для позначення тренду в освітній та професійній сферах науковцями Національного наукового фонду США. 
+
+---
+
+
+class: middle, black-slide
+
+.center[
+<video loop controls preload="auto" height="480" width="700">
+  <source src="./figures/lec1/The future of computing a conversation with John Hennessy (Google I_O '18).mp4" type="video/mp4">
+</video>
+
+[The future of computing: a conversation with John Hennessy (Google I/O '18)](https://www.youtube.com/watch?v=Azt8Nc-mtKM)
+
+]
+
+---
+
+class: middle
+# Пристрої
+
+| Device type                   | Device name          | Transistor count  | Date of introduction | Designer(s) | MOS process | Area       | Transistor density, tr./mm2 |
+|-------------------------------|----------------------|-------------------|----------------------|-------------|-------------|------------|-----------------------------|
+| Deep learning engine / IPU[g] | Colossus GC2         | 23,600,000,000    | 2018                 | Graphcore   | 16 nm       | ~800 mm2   | 29,500,000                  |
+| Deep learning engine / IPU    | Wafer Scale Engine   | 1,200,000,000,000 | 2019                 | Cerebras    | 16 nm       | 46,225 mm2 | 25,960,000                  |
+| Deep learning engine / IPU    | Wafer Scale Engine 2 | 2,600,000,000,000 | 2020                 | Cerebras    | 7 nm        | 46,225 mm2 | 56,250,000                  |
+| Network switch                | NVLink4 NVSwitch     | 25,100,000,000    | 2022                 | Nvidia      | N4 (4 nm)   | 294 mm2    | 85,370,000                  |
+
+
+.footnote[IPU: Intelligence Processing Unit
+
+Джерело слайду: [en.wikipedia.org](https://en.wikipedia.org/wiki/Transistor_count#Parallel_systems)]
+
+---
+
+
+class: middle
+
+.center.width-100[![](figures/lec1/Moore's_Law_Transistor_Count_1970-2020.png)]
+
+.footnote[Джерело слайду: [en.wikipedia.org](https://en.wikipedia.org/wiki/Transistor_count#/media/File:Moore's_Law_Transistor_Count_1970-2020.png)]
+
+---
+
+
 class: middle
 
 # Сьогодні
 
+- Масштабованість та портативність у гетерогенних паралельних обчисленнях
 - GPU-прискорені vs лише CPU програми
 - Способи прискорення виконання програм
 - Приклади паралельних обчислень
