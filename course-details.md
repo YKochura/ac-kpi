@@ -28,8 +28,10 @@ class: middle, center, title-slide
 
 # Аудиторія
 
-Цього семестру заняття проходять онлайн в .bold[*BigBlueButton*] 
-- BBB кімната:  [https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join](https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join)
+- Цього семестру .highlight[.bold[лекції]] та .highlight[.bold[практики]] в асинхронному режимі онлайн  
+ 
+- Семінар в синхронному режимі онлайн на платформі .bold[*BigBlueButton*]:
+.alert[BBB кімната:  [https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join](https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join)]
 
 .center.width-100[![](figures/course-details/bbb.png)]
 
@@ -140,8 +142,8 @@ class: middle
 
 - Для магiстрiв 1-го курсу
 - Мова викладання: українська, англiйська
-- 10 лекцій
-- 2 семінари
+- 8 лекцій
+- 4 семінари
 - 4 практичнi роботи + контрольна 
 - Технології графічного процесінгу: **екзамен**
 - Технології розподілених обчислень: **залік**
