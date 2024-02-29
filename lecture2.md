@@ -9,6 +9,9 @@ class: middle, center, title-slide
 [iuriy.kochura@gmail.com](mailto:iuriy.kochura@gmail.com) <br>
 <a href="https://t.me/y_kochura">@y_kochura</a> <br>
 
+???
+CUDA(англ. Compute Unified Device Architecture) — програмно-апаратна архітектура паралельних обчислень, яка дозволяє істотно збільшити обчислювальну продуктивність завдяки використанню графічних процесорів фірми Nvidia.
+
 ---
 
 class: blue-slide, middle, center
