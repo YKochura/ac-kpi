@@ -1,8 +1,8 @@
 class: middle, center, title-slide 
 <br>
-# Технології графічного процесінгу & розподілених обчислень
+# Технології графічного процесінгу
 
-Весна, 2024
+Весна, 2025
 
 <br><br>
 Кочура Юрій Петрович<br>
@@ -28,7 +28,7 @@ class: middle, center, title-slide
 
 # Аудиторія
 
-- Цього семестру .highlight[.bold[лекції]] та .highlight[.bold[практики]] в асинхронному режимі онлайн  
+- Цього семестру .highlight[.bold[лекції]] та .highlight[.bold[практики]] будуть онлайн у змішаному форматі
  
 - Семінар в синхронному режимі онлайн на платформі .bold[*BigBlueButton*]:
 .alert[BBB кімната:  [https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join](https://bbb.comsys.kpi.ua/rooms/yur-ujl-jyp-qmp/join)]
@@ -47,17 +47,10 @@ class: middle
 - Не соромтесь!
 ]
 
-.grid[
-.kol-1-2[
-.center.width-70[![](figures/course-details/telegram-с.png)]
-.center.smaller-x[Оголошення]
-]
 
-.kol-1-2[
-.center.width-70[![](figures/course-details/telegram.png)]
+.center.width-50[![](figures/course-details/telegram.png)]
 .center.smaller-x[Обговорення]
-]
-]
+
 
 ---
 
@@ -74,7 +67,7 @@ class: middle
 
 # Вебсторінка
 
-Усі навчальні матеріали та завдання будуть розміщуватись на цій вебсторінці:<br> [https://courses-cs-kpi.github.io/pd-24sp/](https://courses-cs-kpi.github.io/pd-24sp/)
+Усі навчальні матеріали та завдання будуть розміщуватись на цій вебсторінці:<br> [https://courses-cs-kpi.github.io/pd-25sp/](https://courses-cs-kpi.github.io/pd-25sp/)
 
 
 .center.width-75[![](figures/course-details/github.png)]
@@ -145,8 +138,8 @@ class: middle
 - 8 лекцій
 - 4 семінари
 - 4 практичнi роботи + контрольна 
-- Технології графічного процесінгу: **екзамен**
-- Технології розподілених обчислень: **залік**
+- Семестровий контроль: **Екзамен**
+
 
 ???
  Звичайно, що просто прослухавши лекції та виконавши усі практичні роботи, ви не станете першокласним спеціалістом. Значною мірою усе залежить тільки від ваших особистих зусиль.
