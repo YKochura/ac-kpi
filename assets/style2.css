@@ -113,8 +113,23 @@ strong {
     font-size: 20pt;
 }
 
+.larger-xl {
+    font-size: 30pt;
+}
+
+.larger-xs {
+    font-size: 25pt;
+}
+
 .larger-xx {
     font-size: 44pt;
+}
+
+.larger-xxx {
+    font-size: 54pt;
+}
+.larger-xxxx {
+    font-size: 94pt;
 }
 
 .katex {
@@ -247,6 +262,15 @@ td {
     padding: 1em;
 }
 
+.quote{
+    background-color: rgba(132, 176, 199, 0.21);
+    border: 2px solid rgb(132,176,199);
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    padding: 1em;
+}
+
 .alert {
     color: #721c24;
     background-color: #f8d7da;
@@ -255,6 +279,16 @@ td {
     width: 95%;
     display: block;
     padding: 1em;
+}
+
+.rectangle {
+    color: #035B99;
+    background-color: #D1E8E8;
+    border: 2px solid #78B0B0;
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    padding: 0.2em;
 }
 
 

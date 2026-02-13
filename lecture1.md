@@ -329,9 +329,9 @@ class: middle
 
 class: middle, center, black-slide
 
-<iframe width="600" height="450" src="https://www.youtube.com/embed/-P28LKWTzrI" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="figures/lec1/snaptik_7458144621114281222_v3.mp4" frameborder="0" allowfullscreen></iframe>
 
-Mythbusters Demo GPU versus CPU
+Демо-версія «Руйнівників міфів»: графічний процесор проти центрального процесора
 
 ???
 Mythbusters (Руйнівники міфів) (англ. myth &mdash; міф, вигадка) + (англ. bust  &mdash; зруйновувать, знищувать) 
@@ -344,4 +344,4 @@ Mythbusters (Руйнівники міфів) (англ. myth &mdash; міф, в
 class: end-slide, center
 count: false
 
-.larger-xx[Кінець 🏁]
+.larger-xxxx[🏁]
