@@ -1,0 +1,72 @@
+name: Build course PDFs
+
+on:
+  push:
+    paths:
+      - "lecture*.md"
+      - "details.md"
+  workflow_dispatch:
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create output directory
+        run: mkdir -p pdf
+
+      - name: Fix permissions for PDF output
+        run: chmod -R 777 pdf
+
+      - name: Start local HTTP server
+        run: |
+          python3 -m http.server 8000 &
+          sleep 3
+
+      - name: Detect changed markdown files
+        id: changes
+        run: |
+          BEFORE="${{ github.event.before }}"
+          FILES=""
+
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || [ -z "$BEFORE" ]; then
+            FILES="$(ls lecture*.md details.md 2>/dev/null | tr '\n' ' ')"
+            echo "files=$FILES" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          CHANGED=$(git diff --name-only "$BEFORE" "${{ github.sha }}" || true)
+
+          for f in $CHANGED; do
+            if [[ "$f" =~ ^lecture.*\.md$ || "$f" == "details.md" ]]; then
+              FILES="$FILES $f"
+            fi
+          done
+
+          echo "files=$(echo $FILES | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Generate PDFs with DeckTape
+        if: steps.changes.outputs.files != ''
+        run: |
+          for md in ${{ steps.changes.outputs.files }}; do
+            name=$(basename "$md" .md)
+            echo "Generating PDF for $md"
+            docker run --rm --net=host \
+              -v ${{ github.workspace }}:/slides \
+              astefanutti/decktape \
+              "http://0.0.0.0:8000/?p=$md" \
+              "/slides/pdf/$name.pdf"
+          done
+
+      - name: Upload generated PDFs
+        if: steps.changes.outputs.files != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: course-pdfs
+          path: pdf/*.pdf
+
