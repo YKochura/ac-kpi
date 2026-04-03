@@ -301,7 +301,7 @@ class: middle
 1. [Deep learning on the parameter server](https://proceedings.neurips.cc/paper_files/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf)
 1. [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
 1. [Overview of how TensorFlow does distributed training](https://www.tensorflow.org/guide/distributed_training)
-1. [Deep learning on the parameter server](https://proceedings.neurips.cc/paper_files/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf)
+
 
 
 ???
